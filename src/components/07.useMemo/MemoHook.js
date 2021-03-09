@@ -1,9 +1,9 @@
-import React, { useState, useMemo } from 'react';
-import { useCouter } from '../../hooks/useCouter';
-import { procesoPesado } from '../../helpers/procesoPesado';
-
 import '../02-useEffect/effects.css';
 
+import React, { useMemo, useState } from 'react';
+
+import { procesoPesado } from '../../helpers/procesoPesado';
+import { useCouter } from '../../hooks/useCouter';
 
 export const MemoHook = () => {
 
